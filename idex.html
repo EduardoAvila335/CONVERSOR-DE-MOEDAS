@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONVERSOR DE MOEDAS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> <img src="moeda.png" alt="moeda">CONVERSOR DE MOEDAS</h1>
+        
+    <div class="quantia">
+        <p>Quantia:</p>
+        <input type="number" name="quantia" id="quantia"
+        placeholder="Coloque sua quantia aqui...">
+        <label for="opcoes"></label>
+            <select id="opcoes">
+                <option value="REAL">REAL</option>
+                <option value="DOLAR">DOLAR</option>
+                <option value="EURO">EURO</option>
+            </select>
+    </div>
+    <p id="p">↓↑</p>
+    <div class="converter">
+        <p>Converter para:</p>
+        <!-- <input type="number" name="converter" id="converter" -->
+        <!-- placeholder="Coloque sua quantia aqui..."> -->
+        <label for="opcoes"></label>
+            <select id="opcoes2">
+                <option value="REAL">REAL</option>
+                <option value="DOLAR">DOLAR</option>
+                <option value="EURO">EURO</option>
+            </select>
+            <br><br><br>
+            <button onclick="converter()">CONVERTER</button>
+             
+            <div id="moedaConvertida"></div>
+    </div>
+    <script src="script.js"></script>
+    </body><br> <br> <br>
+<footer>&copy; Copyright Eduardo, todos os direitos reservados.</footer>
+</html>
